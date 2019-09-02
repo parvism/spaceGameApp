@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parviz Mozaffari - Space Shooter Game</title>
+		<link rel="stylesheet" type="text/css" href="styles/spaceGame.css">
+	</head>
+	<body>
+		<header>
+			<p class="links">
+  			<a href="index.html" class="tab2">HOME</a>  			
+	  	</header>
+	  	<main>
+	  		<section>
+
+	  			<div class="timeAndScore">Elapsed Time: <span id="timeBox">0:00 </span>
+	  				<span class="score">SCORE: <span id="score">0 </span></span>
+	  			</div>
+
+	  			<div id="container">
+	  				<canvas id="bgCanvas">
+					Your browser does not support canvas. Please try again with a different browser.
+					</canvas>
+	  				<canvas id="mainCanvas"> </canvas>
+	  				<canvas id="fgCanvas"> </canvas>
+
+					<div class="gameOver" id="gameOver">GAME OVER<p><span id="restart">Play again!</span></p></div>
+					<div class="loading" id="loading">LOADING...</div>
+
+				</div>
+				<p><img src="images/keys.png"></p>
+				<p>Shoot - Spacebar<span class="tab1">Move - Arrow keys</span></p>
+	  		</section>
+	  		<nav>
+
+
+	  		</nav>
+	  	</main>
+	  	<footer>
+
+  		</footer>
+
+		<script src="scripts/spaceGame.js"></script>
+	</body>
+</html>

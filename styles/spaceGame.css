@@ -1,0 +1,100 @@
+
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #87CEFA;
+}
+
+canvas{
+	position: absolute;
+	background: transparent;
+}
+
+#loading { z-index: 0; }
+
+#bgCanvas { z-index: 1; }
+
+#mainCanvas { z-index: 2; }
+
+#fgCanvas { z-index: 3; }
+
+#gameOver { z-index: 4; }
+
+header, footer{
+	margin: 0 1.5% 24px 1.5%;
+	display: block;
+	/*background: #DDE8ED;*/
+	border-radius: 6px;
+	padding: 24px 15px;
+}
+
+header{ text-align: center; }
+
+section{ margin: 0 1.5% 24px 1.5%; }
+
+footer{ clear: both; margin-bottom: 0; }
+
+#container{
+	width:900px; height:540px;
+	border: 2px solid #000000;
+	background-color: white;
+}
+
+.timeAndScore {
+	top: 5px;
+	left: 480px;
+	color: #FF6600;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	cursor: default;
+}
+
+.score {
+	padding-left: 5em;
+}
+
+.loading {
+	position: relative;
+	top: 100px;
+	left: 340px;
+	color: #FF0000;
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+
+}
+
+.gameOver {
+	position: relative;
+	top: 200px;
+	left: 340px;
+	color: #FF7F00;
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	cursor: default;
+	display: none;
+}
+
+.gameOver span {
+	font-size: 30px;
+	cursor: pointer;
+	position: relative;
+	left: 50px;
+}
+
+.gameOver span:hover {
+	color: #00CC00;
+}
+
+.tab1 { padding-left: 19.5em; }
+
+.tab2 { padding-right: 0.5em;
+		padding-left: 0.5em;
+		text-decoration: none;}
+
+.links {
+font-size: 20px;
+text-align: left;
+}
